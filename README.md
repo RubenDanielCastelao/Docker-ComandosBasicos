@@ -62,3 +62,15 @@
   > docker system df
 ```
 
+### 8-.¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
++ Ambas estas preguntas se pueden solucionar mediante el comando `DOCKER STATS`, este comando te muestra el consumo tando de ***ram***.
+
++ Siendo que:
+
+    - **dam_ubu1** 0.29% de la memoria RAM.
+    - **dam_ubu2** 0.37% de la memoria RAM.
+
+```bash
+  > docker stats
+```
