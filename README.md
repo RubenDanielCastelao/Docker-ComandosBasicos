@@ -20,3 +20,14 @@
   > docker ps
 ```
 
+### 3-.Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
+
++ Creamos un contenedor sin nombre usando `DOCKER RUN -DIT --NAME dam_ubu1 UBUNTU BASH`, y podremos reacceder al contenedor usando `DOCKER EXEC -IT dam_ubu1 BASH`.
+
+```bash
+  > docker run -dit --name dam_ubu1 ubuntu bash
+
+  > docker exec -it dam_ubu1 bash
+```
+
+
