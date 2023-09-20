@@ -50,3 +50,7 @@
   > ping 172.17.0.3
 ```
 
+### 6-.Sal del terminal, ¿que ocurrió con el contenedor?
+
++ Al crearlo con -dit el contenedor se mantiene junto a todo los cambios hechos en este
+
