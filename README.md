@@ -30,4 +30,14 @@
   > docker exec -it dam_ubu1 bash
 ```
 
+### 4-.Comprueba que ip tiene y si puedes hacer un ping a google.com
+
++ Realizamos el comando `ifconfig`, para comprobar la ip de el contenedor, que es en este caso: **172.17.0.3**, y hacemos `ping google.com` comprobando, que el ping es posible, pero funciona con tiempos mucho mayores que el PC principal.
+
+```bash
+  > ifconfig
+
+  > ping google.com
+```
+
 
