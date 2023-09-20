@@ -40,4 +40,13 @@
   > ping google.com
 ```
 
+### 5-.Crea un contenedor con el nombre 'dam_ubu2'.¿Puedes hacer ping entre los contenedores?
+
++ Creamos el contenedor **dam_ubu2** con este comando `DOCKER RUN -DIT --NAME dam_ubu2 UBUNTU BASH`, y luego hacemos el ping a **dam_ubu1** desde este nuevo contenedor usando `PING 172.17.0.3`, comprobando que el retraso de ping es muy bajo. de menos de 0.05ms.
+
+```bash
+  > docker run -dit --name dam_ubu2 ubuntu bash
+
+  > ping 172.17.0.3
+```
 
