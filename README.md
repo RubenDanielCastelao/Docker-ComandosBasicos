@@ -54,3 +54,11 @@
 
 + Al crearlo con -dit el contenedor se mantiene junto a todo los cambios hechos en este
 
+### 7-.¿Cuanta memoria en el disco duro ocupaste?
+
++ Para revisar el espacio en disco duro utilizado por los contenedores usaremos el comando `DOCKER SYSTEM DF`, comprobando que cada contenedor de ubuntu pesa unos 270MB.
+
+```bash
+  > docker system df
+```
+
